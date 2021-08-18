@@ -1,0 +1,141 @@
+/************************************tag selectors*************************/
+body {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+font-size: 80%;
+
+  }
+  
+  nav {  position: fixed;
+    top:0;
+    width: 100%;
+      text-align: center;
+    height: 50px;
+    background-color: black;
+    padding: 0 10%;
+  padding-right: 0;
+  padding-left: 15%;
+  }
+  /*******************************CLASS SELECTORS***************************/
+  .fa-bars{
+    color: gray;
+    background-color: black;
+    border: none;
+  }
+  .fa-bars:hover{
+    color: white;
+  }
+  .fa-apple, .fa-shopping-bag, .fa-search {
+   width: 20px;
+  }
+  .list {
+  
+    width: 70%;
+    margin: 0 4%;
+  
+  
+  }
+  
+  .list ul {
+  
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .list-item{
+    text-overflow: hidden;
+      padding: 0 25px 0 5px;
+  }
+  
+  .list ul li {
+    margin: 0 10px 0 0;
+  }
+  
+  .list ul li:nth-child(1) {
+    margin-left: 0;
+  }
+  .list li, .list a {
+    color: gray;
+    line-height: 44px;
+    text-decoration: none;
+  }
+  
+  .list ul li a:hover{
+    color:white;
+  }
+  .fa-shopping-bag{
+
+    text-align:end;
+  }
+  .welcome-msg{
+      text-align: center;
+      color: rgb(82, 79, 79);
+  }
+  .big-screen-img, .small-screen-img{
+    display:none;
+  }
+
+  .menu-items{
+    position: absolute;
+background-color:black;
+top:50px;
+left:0;
+  }
+.menu-items{
+  width:100%;
+font-size: 1.2rem;
+}
+.list-styling{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.list-styling li{
+  
+list-style-type:none;
+}
+.list-items-2{
+  color: gray;
+text-decoration: none;
+
+}
+.list-items-2:hover{
+  color: white;
+}
+.mob-menu{
+  display: none;
+}
+hr{
+  border-color: gray;
+}
+  @media (max-width:765px)
+  {
+.hiding-items{
+  display: none;
+}
+.menu-btn{
+  display: flex;
+ 
+  border: none;
+}
+.small-screen-img{
+  display:block;
+}
+
+  }
+  @media (min-width:765px)
+  {
+    .big-screen-img{
+      display:block;
+    }
+    .menu-items{
+      display: none;
+    }
+    .menu-btn{
+    display: none;
+  
+  }
+}
